@@ -1,6 +1,6 @@
-package classwork4;
+package classwork_4;
 
-public class Classwork4 {
+public class Classwork_4 {
 	public static void main(String[] args) {
 //		### Задание 1: "Прямой отсчет"
 //

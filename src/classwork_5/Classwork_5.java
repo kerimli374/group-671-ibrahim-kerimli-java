@@ -27,8 +27,7 @@ public class Classwork_5 {
 //		8 22 10 4
 //			
 			for (int i = 0; i < numbers.length; i++) {
-				if (numbers[i
-				            ] % 2 == 0) {
+				if (numbers[i] % 2 == 0) {
 					System.out.println(numbers[i]);
 				}
 			}
@@ -41,5 +40,9 @@ public class Classwork_5 {
 //		java
 //		Массив: 5 12 8 3 9 1
 //		Сумма первых трёх: 25
+			
+			int[] num2 = {5, 12, 8, 3, 9, 1};
+			
+			System.out.println(num2[0] + num2[1] + num2[2]);
 	}
 }
