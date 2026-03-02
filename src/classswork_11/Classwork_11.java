@@ -124,6 +124,17 @@ public class Classwork_11 {
 		//8. **Факториал** (два варианта)  
 		//   а) Введите число n (1–15). Выведите n!  
 		//   б) *То же самое*, но если n > 20 — выведите «Слишком большое число»
+				
+				Scanner l = new Scanner(System.in);
+				System.out.println("Enter number");
+				int n = s.nextInt();
+				int sumf = 0;
+				for(int i = 1; i <= n; i++) {
+					sumf += n * i;
+					if (n>20) {
+						System.out.println("Слишком большое число");
+					}
+				}
 		//
 		//### Уровень 2–3: class
 		//
@@ -136,8 +147,11 @@ public class Classwork_11 {
 		//   - метод `double getArea()`  
 		//   - метод `double getPerimeter()`  
 		//   - метод `void printInfo()` → выводит ширину, высоту, площадь и периметр  
+				
 		//
 		//   В `main` создайте 2 прямоугольника и выведите информацию о каждом.
+				Rectangle rectangle1 = new Rectangle(8, 17);
+				Rectangle rectangle2 = new Rectangle(8, 17);
 		//
 		//10. **Класс Student**  
 //		    Поля:  
