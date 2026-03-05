@@ -1,5 +1,10 @@
 package classwork_12;
 
-public class Triangle {
+public class Triangle implements Drawable {
+
+	@Override
+	public void draw() {
+		System.out.println("Треугольник");
+	}
 
 }
