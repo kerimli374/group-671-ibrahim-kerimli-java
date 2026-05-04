@@ -19,5 +19,19 @@ public class Classwork_16 {
 		byte b1 = (byte) l;
 
 		System.out.println(b1);
+		
+		int age = 20;
+		float price = 15.5F;
+		char grade = 'A';
+		String name = "Java";
+		boolean isOpen = true;
+		//int-там просто числа 
+		//float-после значение F
+		//char-в одинар. ковычках заглавные буквы и только одна
+		//String-слово в двойных ковычках
+		//Boolean-значение или true или false
+		
+		
+
 	}
 }
