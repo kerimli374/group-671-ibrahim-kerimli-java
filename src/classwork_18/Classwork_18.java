@@ -27,5 +27,35 @@ public class Classwork_18 {
 		}else {
 			System.out.println("Числа равны");
 		}
+		
+		int age = 17;
+		if (age >= 18) {
+			System.out.println("Доступ разрешён");
+		}else {
+			System.out.println("Доступ запрещён");
+		}
+		
+		int score = 82;
+		if(score >=90 && score <=100) {
+			System.out.println("Отлично");
+		}else if(score >=70 && score <=89) {
+			System.out.println("Хорошо");
+		}else if(score >=50 && score <=69) {
+			System.out.println("Удовлетворительно");
+		}else if(score >=0 && score <=49) {
+			System.out.println("Не сдал");
+		}else {
+			System.out.println("Некорректный балл");
+		}
+		
+		String login = "admin";
+		String password = "12345";
+		if(login == "admin"&&password == "12345") {
+			System.out.println("Вход выполнен");
+		}else {
+			System.out.println("Ошибка входа");
+		}
+		
+		int temperature = 32;
 	}
 }
